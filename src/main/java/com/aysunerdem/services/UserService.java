@@ -1,8 +1,8 @@
-package com.hkarabakla.services;
+package com.aysunerdem.services;
 
-import com.hkarabakla.entities.Address;
-import com.hkarabakla.entities.User;
-import com.hkarabakla.repositories.UserRepo;
+import com.aysunerdem.entities.Address;
+import com.aysunerdem.entities.User;
+import com.aysunerdem.repositories.UserRepo;
 import org.springframework.stereotype.Component;
 
 @Component

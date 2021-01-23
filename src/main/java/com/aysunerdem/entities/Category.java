@@ -1,4 +1,4 @@
-package com.hkarabakla.entities;
+package com.aysunerdem.entities;
 
 import javax.persistence.*;
 import java.util.List;
@@ -11,6 +11,12 @@ public class Category {
     private int id;
 
     private String name;
+
+    public Category() {
+        this.id = id;
+        this.name = name;
+        this.books = books;
+    }
 
     @OneToMany(mappedBy = "category", cascade = CascadeType.REMOVE)
     private List<Book> books;
@@ -47,4 +53,7 @@ public class Category {
                 ", books=" + books +
                 '}';
     }
+
+
 }
+

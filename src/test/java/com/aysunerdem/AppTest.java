@@ -1,4 +1,4 @@
-package com.hkarabakla;
+package com.aysunerdem;
 
 import static org.junit.Assert.assertTrue;
 

@@ -1,9 +1,10 @@
-package com.hkarabakla.repositories;
+package com.aysunerdem.repositories;
 
-import com.hkarabakla.entities.User;
+import com.aysunerdem.entities.User;
 import org.springframework.data.repository.CrudRepository;
-
+import org.springframework.stereotype.Repository;
 import java.util.List;
+
 
 public interface UserRepo extends CrudRepository<User, Integer> {
 
